@@ -15,6 +15,11 @@ namespace PhotoFrame.Application
     public class PhotoFrameApplication
     {
         private readonly CreateAlbum createAlbum;
+        private readonly ChangeAlbum changeAlbum;
+        private readonly FindAlbums findAlbums;
+        private readonly FindPhoto findPhoto;
+        private readonly ShowSlide showSlide;
+        private readonly ToggleFavorite toggleFavorite;
 
         public PhotoFrameApplication(IAlbumRepository albumRepository)
         {
