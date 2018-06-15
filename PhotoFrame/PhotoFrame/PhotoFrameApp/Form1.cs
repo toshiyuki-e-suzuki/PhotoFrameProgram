@@ -19,6 +19,9 @@ namespace PhotoFrameApp
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// /
+        /// </summary>
         private IPhotoRepository photoRepository;
         private IAlbumRepository albumRepository;
         private IEnumerable<Photo> searchedPhotos; // リストビュー上のフォトのリスト
